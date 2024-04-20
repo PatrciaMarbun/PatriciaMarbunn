@@ -1,0 +1,69 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Styles */
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  /* Border Color Change */
+  input:focus {
+    border-color: dodgerblue;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/92/1c/a0/921ca04bfc6fc85f689ce0f20a1c78cb.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  input {
+    width: 500px; /* Menyesuaikan lebar input */
+    height: 100px; /* Menyesuaikan tinggi input */
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Membagi container menjadi 2 kolom */
+    gap: 10px; /* Jarak antara kolom */
+}
+.center {
+    display: flex;
+    justify-content: center; /* Memusatkan elemen */
+    margin-top: 20px; /* Memberikan jarak atas */
+}
+.form-container {
+    margin-top: 40px; /* Menurunkan form sedikit ke bawah */
+}
